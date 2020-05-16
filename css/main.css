@@ -348,7 +348,7 @@ second color : #ec1c23
 }
 @media (max-width: 992px) {
   .testimonial .carousel-caption {
-    margin-top: 0;
+    top: 0;
   }
 }
 
