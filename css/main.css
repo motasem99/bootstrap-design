@@ -346,7 +346,11 @@ second color : #ec1c23
   top: 50%;
   margin-top: -158px;
 }
-
+@media (max-width: 992px) {
+  .testimonial .carousel-caption {
+    padding-bottom: 10px;
+  }
+}
 .testimonial .carousel-caption img {
   width: 200px;
   border-radius: 50%;
@@ -359,6 +363,11 @@ second color : #ec1c23
   font-size: 18px;
   display: inline-block;
   margin-bottom: 30px;
+}
+@media (max-width: 992px) {
+  .testimonial .carousel-caption p {
+    padding-bottom: 10px;
+  }
 }
 .testimonial .carousel-indicators li {
   height: 8px;
