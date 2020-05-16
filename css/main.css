@@ -166,7 +166,7 @@ second color : #ec1c23
 }
 @media (max-width: 992px) {
   .overview {
-    padding: 0;
+    padding-top: 50px 0;
   }
 }
 .overview h2 {
@@ -177,7 +177,7 @@ second color : #ec1c23
 }
 @media (max-width: 992px) {
   .overview h2 {
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 15px;
   }
 }
@@ -193,7 +193,6 @@ second color : #ec1c23
     width: 80%;
   }
 }
-
 .overview h4 {
   letter-spacing: 2px;
   font-weight: normal;
@@ -218,6 +217,12 @@ second color : #ec1c23
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 20px;
+}
+@media (max-width: 992px) {
+  .featured-work h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
 }
 .featured-work p {
   line-height: 1.6;
@@ -346,11 +351,7 @@ second color : #ec1c23
   top: 50%;
   margin-top: -158px;
 }
-@media (max-width: 992px) {
-  .testimonial .carousel-caption {
-    padding-bottom: 10px;
-  }
-}
+
 .testimonial .carousel-caption img {
   width: 200px;
   border-radius: 50%;
@@ -364,11 +365,7 @@ second color : #ec1c23
   display: inline-block;
   margin-bottom: 30px;
 }
-@media (max-width: 992px) {
-  .testimonial .carousel-caption p {
-    padding-bottom: 10px;
-  }
-}
+
 .testimonial .carousel-indicators li {
   height: 8px;
   cursor: pointer;
