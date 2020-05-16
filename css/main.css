@@ -123,13 +123,13 @@ second color : #ec1c23
   background-size: cover;
 }
 .slider .carousel-one {
-  background-image: url(../img/slider-1.jpg);
+  background-image: url(../img/w1.jpg);
 }
 .slider .carousel-two {
-  background-image: url(../img/slider-2.jpg);
+  background-image: url(../img/w2.jpg);
 }
 .slider .carousel-three {
-  background-image: url(../img/slider-3.jpg);
+  background-image: url(../img/w3.jpg);
 }
 
 .slider .carousel-indicators li {
@@ -306,7 +306,7 @@ second color : #ec1c23
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-image: url(../img/slider-1.jpg);
+  background-image: url(../img/w1.jpg);
   position: relative;
 }
 .testimonial .overlay {
