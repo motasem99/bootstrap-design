@@ -172,7 +172,7 @@ second color : #ec1c23
 }
 @media (max-width: 992px) {
   .overview h2 {
-    font-size: 30px;
+    font-size: 15px;
     margin-bottom: 15px;
   }
 }
@@ -221,6 +221,12 @@ second color : #ec1c23
   margin: 0 auto 15px;
   color: #6a6a6a;
 }
+@media (max-width: 992px) {
+  .featured-work p {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+}
 .featured-work ul {
   margin-top: 40px;
   margin-bottom: 50px;
@@ -229,7 +235,7 @@ second color : #ec1c23
   color: #08526d;
   border: 2px solid #08526d;
   padding: 10px 20px;
-  margin-left: 10px;
+  margin: 0 10px;
   margin-bottom: 10px;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
@@ -334,6 +340,11 @@ second color : #ec1c23
 .testimonial .carousel-caption {
   top: 50%;
   margin-top: -158px;
+}
+@media (max-width: 992px) {
+  .testimonial .carousel-caption {
+    margin-top: 0;
+  }
 }
 
 .testimonial .carousel-caption img {
